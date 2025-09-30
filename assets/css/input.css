@@ -54,6 +54,10 @@
 
 @layer base {
 
+    h1 {
+        @apply text-3xl md:text-4xl lg:text-5xl xl:text-[64px] font-semibold leading-[1.2]
+    }
+
     span {
         @apply inline-block
     }
@@ -98,6 +102,13 @@
 
     #nav-list.active {
         @apply !left-0 transition-all duration-300
+    }
+
+
+    /* icons-div */
+    .icons-div::after {
+        content: '';
+        @apply absolute w-[60px] h-full bg-[#FD8825] top-0 -right-[20px] transform skew-x-[-30deg] z-[1]
     }
 }
 
