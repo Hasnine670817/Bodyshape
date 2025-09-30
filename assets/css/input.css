@@ -55,7 +55,11 @@
 @layer base {
 
     h1 {
-        @apply text-3xl md:text-4xl lg:text-5xl xl:text-[64px] font-semibold leading-[1.2]
+        @apply text-3xl md:text-4xl lg:text-5xl xl:text-[64px] font-semibold leading-[1.2] mb-[60px]
+    }
+
+    h2 {
+        @apply text-2xl lg:text-[40px] font-semibold leading-[100%] mb-8 md:mb-[60px]
     }
 
     span {
@@ -72,7 +76,7 @@
     }
 
     small {
-        @apply text-[10px] font-semibold leading-[100%] text-off-white
+        @apply text-[10px] font-semibold leading-[1.5] text-off-white block
     }
 
 }
