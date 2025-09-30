@@ -18,9 +18,55 @@
     <!-- Tailwind - Css -->
     <link rel="stylesheet" href="assets/css/output.css">
 </head>
-<body>
+<body class="bg-black font-lucida-sans">
 
-    
+    <!-- header-area start here -->
+    <header class="py-3.5 lg:py-2.5 bg-black/30 backdrop-blur-md sticky top-0">
+        <div class="container_custom">
+            <nav class="flex items-center justify-between">
+                <div class="text-center">
+                    <div class="flex gap-2 items-center">
+                        <span>
+                            <img class="max-w-[20px] lg:max-w-none" src="assets/images/logo_left.png" alt="logo">
+                        </span>
+                        <h5 class="text-gradient font-josefin-sans px-1 lg:px-3 text-lg lg:text-2xl">Bodyshape</h5>
+                        <span>
+                            <img class="max-w-[20px] lg:max-w-none" src="assets/images/logo_right.png" alt="logo">
+                        </span>
+                    </div>
+                    <span class="text-xs text-gradient font-josefin-sans hidden lg:inline-block">Unleash your inner athlete</span>
+                </div>
+
+                <!-- bar-btn -->
+                <button type="button" id="bar-btn" class="text-lg text-[#FF921B] lg:hidden"><i class="fa-solid fa-bars"></i></button>
+
+                <!-- header-list -->
+                <ul class="lg:flex gap-7.5 items-center text-white text-base fixed w-[250px] max-w-full left-[-100%] top-0 min-h-screen overflow-y-auto py-5 px-5 bg-gradient-to-b from-[#393939] to-[#39393900] lg:static lg:w-auto lg:max-w-none lg:min-h-auto lg:overflow-y-clip lg:p-0 lg:bg-gradient-to-b lg:from-transparent lg:to-transparent transition-all duration-300" id="nav-list">
+                    <li>
+                        <a href="#" class="p-2.5 leading-none hover_a relative active_a block w-full lg:inline-block lg:w-auto mb-2.5 lg:mb-0">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="p-2.5 leading-none hover_a relative block w-full lg:inline-block lg:w-auto mb-2.5 lg:mb-0">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="p-2.5 leading-none hover_a relative block w-full lg:inline-block lg:w-auto mb-2.5 lg:mb-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="p-2.5 leading-none hover_a relative block w-full lg:inline-block lg:w-auto mb-2.5 lg:mb-0">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-3 py-1.5 font-josefin-sans bg-gradient-to-r from-[#F66844] to-[#FF921B] hover:bg-gradient-to-l hover:from-[#F66844] hover:to-[#FF921B] block w-full lg:inline-block lg:w-auto text-center lg:text-start">Join Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header-area end here -->
+
+
+
+    <!-- Script - JS -->
+    <script src="assets/js/script.js"></script>
     
 </body>
 </html>
