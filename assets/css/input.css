@@ -14,20 +14,11 @@
     font-weight: 600;
 }
 
-
 /* Josefin Sans - 400 */
 @font-face {
     font-family: 'Josefin-Sans';
     src: url(../website-fonts/josefin-sans-regular.ttf) format('truetype');
     font-weight: 400;
-}
-
-
-@layer components {
-    
-    .container {
-        @apply sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1120px] 2xl:max-w-[1352px] mx-auto px-5 
-    }
 }
 
 
@@ -47,7 +38,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --breakpoint-2xl: 1440px;
+    --breakpoint-2xl: 1400px;
 
 }
 
@@ -95,8 +86,7 @@
     }
 
     .hover_a::after {
-        content: '';
-        @apply w-0 h-0.5 bg-[#F66844] absolute left-0 bottom-0 transition-all duration-300;
+        @apply content-[''] w-0 h-0.5 bg-[#F66844] absolute left-0 bottom-0 transition-all duration-300;
     }
 
     .hover_a:hover::after,
@@ -111,8 +101,7 @@
 
     /* icons-div */
     .icons-div::after {
-        content: '';
-        @apply absolute w-[60px] h-full bg-[#FD8825] top-0 -right-[20px] transform skew-x-[-30deg] z-[1]
+        @apply content-[''] absolute w-[60px] h-full bg-[#FD8825] top-0 -right-[20px] transform skew-x-[-30deg] z-[1]
     }
 }
 
