@@ -4,10 +4,10 @@
 BodyShape is a modern and responsive fitness website landing page design, created using Figma. The design focuses on delivering a high-impact, visually engaging experience for users looking to transform their body and join a professional gym or fitness center.
 
 ## Technologies used:
-    1. Html
-    2. Tailwind CSS
-    3. FontAwesome
-    4. AOS (for animation) etc.
+  - *Html*
+  - *Tailwind CSS*
+  - *FontAwesome*
+  - *AOS (for animation) etc.*
 
 ## The challenge I faced:
 ### Responsive Design Handling (Tailwind Breakpoints):
